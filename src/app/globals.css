@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow&family=Sawarabi+Mincho&family=Zen+Antique+Soft&family=Zen+Maru+Gothic&display=swap);
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,7 +19,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: -apple-system, BlinkMacSystemFont,'Open Sans','PT Sans Narrow','Sawarabi Mincho',
+  'Helvetica Neue', YuGothic, 'ヒラギノ角ゴ ProN W3',
+  Hiragino Kaku Gothic ProN, Arial, 'メイリオ', Meiryo, sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
