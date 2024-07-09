@@ -47,7 +47,7 @@ export default function Home() {
             <button className="self-center px-8 py-3 font-semibold rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-500">予約サイトへ</button>
           </div>
           <button className="p-4 lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-100">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-700">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
@@ -309,14 +309,42 @@ export default function Home() {
               <div className="flex flex-col text-center w-full mb-12">
                 <h1 className="text-5xl font-black mb-2 text-gray-900">Access</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-                <p className="mx-auto leading-relaxed text-sm text-gray-600">Comming soon...</p>
+                <p className="mx-auto leading-relaxed text-sm text-gray-600">駅徒歩3分の好立地に1号店がOPEN予定です</p>
               </div>
-              <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.3980319793995!2d139.76835151313287!3d35.69182157246934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c019a160dbd%3A0x5db48e4e41b360ec!2z56We55Sw6aeF!5e0!3m2!1sja!2sjp!4v1699485981120!5m2!1sja!2sjp"
-                  width="460" height="460" loading="lazy"></iframe>
+
+              <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                {/* Grid */}
+                <div className="grid sm:grid-cols-2 sm:items-center gap-8">
+                  <div className="sm:order-2">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4852050567706!2d139.77735831282322!3d35.71428387246221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e997cc92239%3A0x7490aab200e57b44!2z44CSMTEwLTAwMTUg5p2x5Lqs6YO95Y-w5p2x5Yy65p2x5LiK6YeO77yU5LiB55uu77yR77yQ4oiS77yY!5e0!3m2!1sja!2sjp!4v1720010883338!5m2!1sja!2sjp"
+                      width="420" height="420" loading="lazy"></iframe>
+                  </div>
+                  {/* End Col */}
+
+                  <div className="sm:order-1 text-gray-800">
+                    <h2
+                      className="text-2xl font-bold md:text-3xl lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight text-gray-800">
+                      <a className="hover:text-blue-600" href="#">
+                      </a>
+                    </h2>
+                    <ul className="list-none pl-5 text-xl py-12">
+                      <li className='font-bold'>住所</li>
+                      <li>東京都台東区東上野４丁目１０−８</li>
+                    </ul>
+                    <ul className="list-none pl-5 text-xl space-y-2">
+                    <li className='font-bold'>交通アクセス</li>
+                    <li>JR山手線他／上野駅　入谷口徒歩3分</li>
+                      <li>東京メトロ日比谷線／上野駅　1番出口徒歩5分</li>
+                    </ul>
+                  </div>
+                  {/* End Col */}
+                </div>
+                {/* End Grid */}
               </div>
-              {/* End Container */}
+
             </div>
+            {/* End Container */}
           </section>
         </FadeInBottom>
         {/* End Menu Section */}
@@ -342,7 +370,7 @@ export default function Home() {
                   <details className="w-full border rounded-lg">
                     <summary className="px-4 py-6 focus:outline-none focus-visible:ri">初心者ですけど、大丈夫ですか？</summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      大丈夫です！ 専門のスタッフが皆様のゲームの慣れ具合や状況をヒアリングし、 楽しく遊んでいただけるボードゲームをオススメいたします！ 一緒にルール説明も丁寧に行いますので、ご安心ください。</p>
+                      大丈夫です！ 初心者にもおすすめのボードゲームを人数や所要時間ごとにご紹介していますのでご安心ください！</p>
                   </details>
                   <details className="w-full border rounded-lg">
                     <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
@@ -368,7 +396,7 @@ export default function Home() {
             <div className="flex flex-col w-full mb-12">
               <h1 className="text-5xl font-black mb-2 text-gray-900">Contact</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-              <p className="mx-auto leading-relaxed text-base text-gray-600">連絡先とSNS</p>
+              <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
             </div>
             {/* End Container */}
           </div>
@@ -433,7 +461,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                   */}
-                  <a rel="noopener noreferrer" href="https://twitter.com/" target="_blank">
+                  <a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">
                     <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                 </li>
@@ -443,7 +471,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                   */}
-                  <a rel="noopener noreferrer" href="https://www.instagram.com/" target="_blank">
+                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                 </li>
