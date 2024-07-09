@@ -114,7 +114,7 @@ export default function Home() {
         {/* End Concept Section */}
 
         {/* Service Section */}
-        <TiltInBottom>
+        <FadeInBottom>
           <section id="service" className="bg-gray-50 py-20">
             {/* Container */}
             <div className="container mx-auto px-6 text-center  animate-tilt-in-bottom-1">
@@ -249,12 +249,12 @@ export default function Home() {
               {/* End Container */}
             </div>
           </section>
-        </TiltInBottom>
+        </FadeInBottom>
         {/* End Service Section */}
 
 
         {/* Gallary Section */}
-        <TiltInBottom>
+        <FadeInBottom>
           <section id="gallary" className="bg-white py-20">
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
@@ -297,7 +297,7 @@ export default function Home() {
               {/* End Container */}
             </div>
           </section>
-        </TiltInBottom>
+        </FadeInBottom>
         {/* End Gallary Section */}
 
 
