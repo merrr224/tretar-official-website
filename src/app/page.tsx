@@ -148,7 +148,7 @@ export default function Home() {
                       <div className="space-y-2">
                         <h4 className="text-2xl font-bold text-gray-800">昼の部</h4>
                         <p className="mt-3 leadi text-lg text-gray-800">13:00 ～ 18:00</p>
-                        <span className="text-5xl font-bold text-gray-800">￥1,500</span>
+                        <span className="text-5xl font-bold text-gray-800">￥2,000</span>
                       </div>
                       <ul className="flex-1 mb-6 text-gray-800">
                         <li className="flex mb-2 space-x-2">
@@ -168,7 +168,7 @@ export default function Home() {
                       <div className="space-y-2">
                         <h4 className="text-2xl font-bold">夜の部</h4>
                           <p className="text-lg tracki">18:00 ～ 21:00</p>
-                        <span className="text-5xl font-bold">￥1,000</span>
+                        <span className="text-5xl font-bold">￥1,500</span>
                       </div>
                       <ul className="flex-1 space-y-2">
                         <li className="flex items-center space-x-2">
@@ -188,7 +188,7 @@ export default function Home() {
                       <div className="space-y-2">
                         <h4 className="text-2xl font-bold text-gray-800">フリータイム</h4>
                         <p className="text-lg tracki text-gray-800">13:00 ～ 21:00</p>
-                        <span className="text-5xl font-bold text-gray-800">￥2,000</span>
+                        <span className="text-5xl font-bold text-gray-800">￥2,500</span>
                       </div>
                       <ul className="space-y-2 text-gray-800">
                         <li className="flex items-start space-x-2">
@@ -318,7 +318,7 @@ export default function Home() {
                   <div className="sm:order-2">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4852050567706!2d139.77735831282322!3d35.71428387246221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e997cc92239%3A0x7490aab200e57b44!2z44CSMTEwLTAwMTUg5p2x5Lqs6YO95Y-w5p2x5Yy65p2x5LiK6YeO77yU5LiB55uu77yR77yQ4oiS77yY!5e0!3m2!1sja!2sjp!4v1720010883338!5m2!1sja!2sjp"
-                      width="420" height="420" loading="lazy"></iframe>
+                      width="340" height="340" loading="lazy"></iframe>
                   </div>
                   {/* End Col */}
 
