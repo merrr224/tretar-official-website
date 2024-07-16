@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import { FadeInBottom, KenBurnsBottom, TiltInBottom } from './components/animation';
@@ -397,6 +397,41 @@ export default function Home() {
               <h1 className="text-5xl font-black mb-2 text-gray-900">Contact</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
+              <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
+
+                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+                    <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">
+                      <FontAwesomeIcon icon={faEnvelope} className="h-10 text-gray-800 hover:text-yellow-300" />
+                    </a>
+                  </div>
+                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                    <p><a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">tretar.info@gmail.com</a></p>
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+                    <a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">
+                      <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-800 hover:text-yellow-300" />
+                    </a>
+                  </div>
+                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                    <p><a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">　　@TRETAR_info　　</a></p>
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">
+                  <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-800 hover:text-yellow-300" />
+                </a>
+                  </div>
+                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">　　tretar_info　　</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
             {/* End Container */}
           </div>
