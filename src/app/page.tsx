@@ -428,8 +428,8 @@ export default function Home() {
                   <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
                     代表者
                   </div>
-                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">　　鈴木 悠倭　　</a></p>
+                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800">
+                    <p>　　鈴木 悠倭　　</p>
                   </div>
                 </div>
 
