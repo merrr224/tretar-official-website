@@ -144,7 +144,7 @@ export default function Home() {
 
                 <div className="flex flex-wrap items-stretch -mx-4">
                   <div className="flex w-full mb-8 sm:px-4 md:w-1/3 lg:w-1/3 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-amber-200">
+                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-zinc-200">
                       <div className="space-y-2">
                         <h4 className="text-2xl font-bold text-gray-800">昼の部</h4>
                         <p className="mt-3 leadi text-lg text-gray-800">13:00 ～ 18:00</p>
@@ -152,10 +152,6 @@ export default function Home() {
                       </div>
                       <ul className="flex-1 mb-6 text-gray-800">
                         <li className="flex mb-2 space-x-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-slate-800">
-                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                          </svg>
-                          <span>説明</span>
                         </li>
                       </ul>
                       {/*<button type="button" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</button>*/}
@@ -172,10 +168,6 @@ export default function Home() {
                       </div>
                       <ul className="flex-1 space-y-2">
                         <li className="flex items-center space-x-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-blue-200">
-                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                          </svg>
-                          <span>説明</span>
                         </li>
                       </ul>
                       {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-slate-950 text-gray-100">Get Started</a>*/}
@@ -184,7 +176,7 @@ export default function Home() {
 
 
                   <div className="flex w-full mb-8 sm:px-4 md:w-1/3 lg:w-1/3 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-lime-200">
+                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-zinc-100">
                       <div className="space-y-2">
                         <h4 className="text-2xl font-bold text-gray-800">フリータイム</h4>
                         <p className="text-lg tracki text-gray-800">13:00 ～ 21:00</p>
@@ -192,10 +184,10 @@ export default function Home() {
                       </div>
                       <ul className="space-y-2 text-gray-800">
                         <li className="flex items-start space-x-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-blue-800">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-zinc-800">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                           </svg>
-                          <span>説明</span>
+                          <span>おすすめ</span>
                         </li>
                       </ul>
                       {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
