@@ -423,6 +423,17 @@ export default function Home() {
                     <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">　　tretar_info　　</a></p>
                   </div>
                 </div>
+
+                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
+                    代表者
+                  </div>
+                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">　　鈴木 悠倭　　</a></p>
+                  </div>
+                </div>
+
+
               </div>
             </div>
             {/* End Container */}
