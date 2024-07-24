@@ -43,14 +43,9 @@ export default function Home() {
               <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Contact</a>
             </li>
           </ul>
-          <div className="items-center flex-shrink-0 hidden lg:flex">
+          <div className="items-center flex-shrink-0  lg:flex">
             <button className="self-center px-8 py-3 font-semibold rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-500">予約サイトへ</button>
           </div>
-          <button className="p-4 lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 text-gray-700">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
         </div>
       </header>
 
@@ -355,20 +350,20 @@ export default function Home() {
               <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
                 <div className="space-y-4">
                   <details className="w-full border rounded-lg">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">一人で行っても楽しめますか？</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      はい！ お一人でご来店の場合は、他のお客様との相席をご案内いたします。 気軽にお一人でご来店ください。</p>
-                  </details>
-                  <details className="w-full border rounded-lg">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">初心者ですけど、大丈夫ですか？</summary>
+                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
                       大丈夫です！ 初心者にもおすすめのボードゲームを人数や所要時間ごとにご紹介していますのでご安心ください！</p>
                   </details>
                   <details className="w-full border rounded-lg">
                     <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      持ち込みもOKです。 ただし、ギャンブルをイメージさせるようなゲームの持ち込みはご遠慮いただいております。あらかじめご了承ください。 （例：麻雀、ポーカートランプなど）
+                      持ち込みもOKです。 ただし、ギャンブルをイメージさせるような麻雀・ポーカートランプなどはご遠慮いただいております。あらかじめご了承ください。 
                     </p>
+                  </details>
+                  <details className="w-full border rounded-lg">
+                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">飲食物の持ち込みルールはありますか？</summary>
+                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                      基本的にはお菓子や飲み物の持ち込みはOKです。ただしアルコール類やボードゲームが汚れやすい食べ物の持ち込みは禁止です。</p>
                   </details>
                 </div>
               </div>
@@ -404,23 +399,23 @@ export default function Home() {
 
                 <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
                   <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
-                    <a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">
+                    <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">
                       <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-800 hover:text-yellow-300" />
                     </a>
                   </div>
                   <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">　　@TRETAR_info　　</a></p>
+                    <p><a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">　　@TRETARboardgame　　</a></p>
                   </div>
                 </div>
 
                 <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
                   <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full bg-gray-50 sm:mr-10">
-                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">
+                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">
                   <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-800 hover:text-yellow-300" />
                 </a>
                   </div>
                   <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">　　tretar_info　　</a></p>
+                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">　　tretar_boardgame　　</a></p>
                   </div>
                 </div>
 
@@ -499,7 +494,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                   */}
-                  <a rel="noopener noreferrer" href="https://x.com/TRETAR_info" target="_blank">
+                  <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">
                     <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                 </li>
@@ -509,7 +504,7 @@ export default function Home() {
                     <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                   */}
-                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_info/" target="_blank">
+                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-300 hover:text-yellow-300" />
                   </a>
                 </li>
