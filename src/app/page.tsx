@@ -318,7 +318,7 @@ export default function Home() {
                     </h2>
                     <ul className="list-none pl-5 text-xl py-12">
                       <li className='font-bold'>住所</li>
-                      <li>東京都台東区東上野４丁目１０−８</li>
+                      <li>東京都台東区東上野４丁目１０−８　川崎ビル２階</li>
                     </ul>
                     <ul className="list-none pl-5 text-xl space-y-2">
                     <li className='font-bold'>交通アクセス</li>
