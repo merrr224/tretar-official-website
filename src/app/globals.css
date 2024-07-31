@@ -24,9 +24,9 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,'Open Sans','PT Sans Narrow','Sawarabi Mincho',
+  font-family: 'Open Sans','PT Sans Narrow',
   'Helvetica Neue', YuGothic, 'ヒラギノ角ゴ ProN W3',
-  Hiragino Kaku Gothic ProN, Arial, 'メイリオ', Meiryo, sans-serif;
+  Hiragino Kaku Gothic ProN, Arial, 'メイリオ', Meiryo, sans-serif, -apple-system, BlinkMacSystemFont;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,

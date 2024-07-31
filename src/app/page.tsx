@@ -54,15 +54,15 @@ export default function Home() {
       <main className='sm:pt-14 pt-10'>
 
         {/* Hero Section */}
-          <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur.png')] ">
+          <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
             <FadeInBottom>
               <div className="text-center">
                 {/* Content */}
-                <h1 className="text-white sm:text-7xl text-5xl font-black pb-10 [-webkit-text-stroke:0.6px_#ccc] [text-stroke:0.6px_#ccc]">
+                <h1 className="text-white lg:text-8xl sm:text-7xl text-5xl font-black pb-10">
                   Let&#39;s Play Boardgame!
                 </h1>
 
-                <p className="text-white sm:text-lg text-sm font-semibold [-webkit-text-stroke:0.4px_#111] [text-stroke:0.4px_#111]">
+                <p className="text-white sm:text-lg text-xs sm:font-normal font-light">
                   大人から子供まで誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
                   心地よくて思わずついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？
                 </p>
@@ -189,11 +189,10 @@ export default function Home() {
                       {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                     </div>
                   </div>
-
-
                 </div>
                 
-                <button type="button" className="px-12 py-3 mt-14 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
+                <button type="button" className="px-12 py-3 m-8 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
+  
               </div>
 
 
