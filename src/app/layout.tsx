@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'TRETÅR | ボードゲームスペース',
-  description: 'Board-game space',
+  description: 'Boardgame space',
 }
 
 export default function RootLayout({

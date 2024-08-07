@@ -17,7 +17,7 @@ export default function Home() {
           <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 
             <Link href="/" className="flex">
-              <Image src="/logo/TRETAR-logo-white.png" alt="SIMPLE" className="sm:h-10 w-auto h-8" width={960} height={540} priority />
+              <Image src="/logo/TRETAR-logo-navbar.png" alt="SIMPLE" className="sm:h-10 w-auto h-8" width={960} height={540} priority />
             </Link>
           </a>
           <ul className="items-stretch hidden space-x-3 lg:flex">
@@ -58,7 +58,7 @@ export default function Home() {
             <FadeInBottom>
               <div className="text-center">
                 {/* Content */}
-                <h1 className="text-white lg:text-8xl sm:text-7xl text-5xl font-black pb-10">
+                <h1 className="text-white lg:text-8xl sm:text-7xl text-4xl font-black pb-10">
                   Let&#39;s Play Boardgame!
                 </h1>
 
@@ -78,11 +78,11 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-auto">
               <div className="flex flex-col text-center w-full mb-12">
-                <h1 className="text-5xl font-black mb-2 text-gray-900">
+                <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900">
                   Concept
                 </h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-                <p className="mx-auto leading-relaxed text-base text-gray-600">
+                <p className="mx-auto leading-relaxed sm:text-base text-sm text-gray-600">
                   世界有数の幸せな国スウェーデン、そんなのどかな土地には日本語にはない価値観の「TRETÅR」という言葉があります。
                   <br />
                   「TRETÅR」は「3杯目のおかわりのコーヒー」のことを意味する国特有の言葉で、
@@ -115,7 +115,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6 text-center  animate-tilt-in-bottom-1">
               <div className="flex flex-col w-full mb-12">
-                <h1 className="text-5xl font-black mb-2 text-gray-900">Service</h1>
+                <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900">Service</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-base text-gray-600">サービスと料金</p>
               </div>
@@ -142,7 +142,7 @@ export default function Home() {
                   <div className="flex w-full mb-8 sm:px-4 md:w-1/3 lg:w-1/3 lg:mb-0">
                     <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-zinc-200">
                       <div className="space-y-2">
-                        <h4 className="text-2xl font-bold text-gray-800">昼の部</h4>
+                        <h4 className="text-2xl font-bold text-gray-800">デイパック</h4>
                         <p className="mt-3 leadi text-lg text-gray-800">13:00 ～ 18:00</p>
                         <span className="text-5xl font-bold text-gray-800">￥2,000</span>
                       </div>
@@ -158,7 +158,7 @@ export default function Home() {
                   <div className="flex w-full mb-8 sm:px-4 md:w-1/3 lg:w-1/3 lg:mb-0">
                     <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-800 text-gray-100">
                       <div className="space-y-2">
-                        <h4 className="text-2xl font-bold">夜の部</h4>
+                        <h4 className="text-2xl font-bold">ナイトパック</h4>
                           <p className="text-lg tracki">18:00 ～ 21:00</p>
                         <span className="text-5xl font-bold">￥1,500</span>
                       </div>
@@ -179,8 +179,8 @@ export default function Home() {
                         <span className="text-5xl font-bold text-gray-800">￥2,500</span>
                       </div>
                       <ul className="space-y-2 text-gray-800">
-                        <li className="flex items-start space-x-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-zinc-800">
+                        <li className="flex space-x-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-6 h-6 text-zinc-800">
                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                           </svg>
                           <span>おすすめ</span>
@@ -246,7 +246,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
               <div className="flex flex-col w-full mb-12">
-                <h1 className="text-5xl font-black mb-2 text-gray-900">Gallary</h1>
+                <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900">Gallary</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-base text-gray-600">ボードゲームをしながらゆったりとした時間が楽しめる空間をご用意しています（Comming soon...）</p>
 
@@ -272,6 +272,9 @@ export default function Home() {
                     <div className="relative flex flex-shrink-0 w-full sm:w-auto">
                       <img className="object-cover object-center bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?5" alt="Image 5" />
                     </div>
+                    <div className="relative flex flex-shrink-0 w-full sm:w-auto">
+                      <img className="object-cover object-center bg-gray-500 h-96 aspect-square" src="https://source.unsplash.com/random/240x360/?6" alt="Image 6" />
+                    </div>
                   </div>
                   <button aria-label="Slide forward" id="next" className="absolute right-0 z-30 p-2 mr-10 bg-opacity-50 rounded-full focus:outline-none focus:bg-gray-400 focus:ri focus:ri focus:ri bg-gray-900">
                     <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
@@ -294,7 +297,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">
-                <h1 className="text-5xl font-black mb-2 text-gray-900">Access</h1>
+                <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900">Access</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-sm text-gray-600">駅徒歩3分の好立地に1号店がOPEN予定です</p>
               </div>
@@ -343,7 +346,7 @@ export default function Home() {
           {/* Container */}
           <div className="container mx-auto px-6">
             <div className="flex flex-col w-full mb-12">
-              <h1 className="text-5xl font-black mb-2 text-gray-900 text-center">FAQ</h1>
+              <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900 text-center">FAQ</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               <p className="mx-auto leading-relaxed text-bas text-gray-600">よくある質問</p>
 
@@ -393,7 +396,7 @@ export default function Home() {
           {/* Container */}
           <div className="container mx-auto px-6 text-center">
             <div className="flex flex-col w-full mb-12">
-              <h1 className="text-5xl font-black mb-2 text-gray-900">Contact</h1>
+              <h1 className="sm:text-5xl text-3xl font-black mb-2 text-gray-900">Contact</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
               <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
@@ -427,7 +430,7 @@ export default function Home() {
                 </a>
                   </div>
                   <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">　　tretar_boardgame　　</a></p>
+                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">　tretar_boardgame　　</a></p>
                   </div>
                 </div>
               </div>
@@ -451,11 +454,11 @@ export default function Home() {
                 <div className="flex items-center justify-center ">
                   <Link href="/" className="flex">
                     <Image
-                      src="/logo/TRETARロゴ_枠なし白_trim.png"
-                      alt="SIMPLE"
+                      src="/logo/TRETAR-logo.png"
+                      alt="TRETÅR logo"
                       className="h-12 w-auto"
-                      width={155}
-                      height={456}
+                      width={456}
+                      height={155}
                       priority
                     />
                   </Link>
