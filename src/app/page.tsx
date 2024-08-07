@@ -51,7 +51,7 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className='sm:pt-14 pt-10'>
+      <main className='pt-16'>
 
         {/* Hero Section */}
           <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
