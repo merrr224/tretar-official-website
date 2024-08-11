@@ -79,7 +79,7 @@ export default function Home() {
             <div className="container mx-auto px-auto">
               <div className="flex flex-col text-center w-full mb-6">
               <FadeInBottom>
-              <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900">
+              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">
                   Concept
                 </h1>
                 </FadeInBottom>
@@ -129,7 +129,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6 text-center  animate-tilt-in-bottom-1">
               <div className="flex flex-col w-full mb-12">
-                <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900">Service</h1>
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Service</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-base text-gray-600">サービスと料金</p>
               </div>
@@ -225,7 +225,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
               <div className="flex flex-col w-full mb-12">
-                <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900">Gallary</h1>
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Gallary</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="pb-6 mx-auto leading-relaxed text-base text-gray-600">ボードゲームをしながらゆったりとした時間が楽しめる空間をご用意しています</p>
 
@@ -276,7 +276,7 @@ export default function Home() {
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">
-                <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900">Access</h1>
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Access</h1>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-sm text-gray-600">駅徒歩3分の好立地に2024年9月OPEN予定です</p>
               </div>
@@ -329,7 +329,7 @@ export default function Home() {
           {/* Container */}
           <div className="container mx-auto px-6">
             <div className="flex flex-col w-full mb-12">
-              <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900 text-center">FAQ</h1>
+              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900 text-center">FAQ</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               <p className="mx-auto leading-relaxed text-bas text-gray-600">よくある質問</p>
 
@@ -379,7 +379,7 @@ export default function Home() {
           {/* Container */}
           <div className="container mx-auto px-6 text-center">
             <div className="flex flex-col w-full mb-12">
-              <h1 className="sm:text-5xl text-3xl font-extrabold mb-2 text-gray-900">Contact</h1>
+              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Contact</h1>
               <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
               <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
