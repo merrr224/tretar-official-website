@@ -54,39 +54,39 @@ export default function Home() {
       <main className='sm:pt-16 pt-20'>
 
         {/* Hero Section */}
-          <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
-            <FadeInBottom>
-              <div className="text-center">
-                {/* Content */}
-                <h1 className="text-white lg:text-8xl sm:text-7xl text-4xl sm:font-extrabold font-bold pb-10">
-                  Let&#39;s Play Boardgame!
-                </h1>
+        <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
+          <FadeInBottom>
+            <div className="text-center">
+              {/* Content */}
+              <h1 className="text-white lg:text-8xl sm:text-7xl text-4xl sm:font-extrabold font-bold pb-10">
+                Let&#39;s Play Boardgame!
+              </h1>
 
-                <p className="text-white sm:text-lg text-xs sm:font-normal font-light">
-                  大人から子供まで誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
-                  心地よくて思わずついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？<br />
-                  <span className="font-medium sm:text-lg text-sm text-red-400">2024年9月OPEN予定！</span>
-                </p>
-              </div>
-            </FadeInBottom>
-          </section>
+              <p className="text-white sm:text-lg text-xs sm:font-normal font-light">
+                大人から子供まで誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
+                心地よくて思わずついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？<br />
+                <span className="font-medium sm:text-lg text-sm text-red-400">2024年9月OPEN予定！</span>
+              </p>
+            </div>
+          </FadeInBottom>
+        </section>
         {/* End Hero Section */}
 
 
         {/* Concept Section */}
-          <section id="concept" className="bg-gray-50 py-20">
-            {/* Container */}
-            <div className="container mx-auto px-auto">
-              <div className="flex flex-col text-center w-full mb-6">
+        <section id="concept" className="bg-gray-50 py-20">
+          {/* Container */}
+          <div className="container mx-auto px-auto">
+            <div className="flex flex-col text-center w-full mb-6">
               <FadeInBottom>
-              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">
                   Concept
                 </h1>
-                </FadeInBottom>
-                <FadeInBottom>
+              </FadeInBottom>
+              <FadeInBottom>
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-                </FadeInBottom>
-                <FadeInBottom>
+              </FadeInBottom>
+              <FadeInBottom>
                 <p className="mt-4 mx-20 lg:mx-auto leading-relaxed sm:text-base text-sm text-gray-600">
                   「TRETÅR」とは「3杯目のおかわりのコーヒー」を<br />意味するスウェーデン独自の言葉です
                   <br /><br />
@@ -96,10 +96,10 @@ export default function Home() {
                   <br /><br />
                   あなたもTRETÅRで「3杯目のおかわり」をしたくなるほどの<br />至福のボードゲーム体験をしてみませんか？
                 </p>
-                </FadeInBottom>
+              </FadeInBottom>
 
-              </div>
-              {/* 
+            </div>
+            {/* 
                   世界有数の幸せな国スウェーデン、そんなのどかな土地には日本語にはない価値観の「TRETÅR」という言葉があります。
                   <br />
                   「TRETÅR」は「3杯目のおかわりのコーヒー」のことを意味する国特有の言葉で、
@@ -117,10 +117,10 @@ export default function Home() {
                 priority
               />
               */}
-            </div>
-            {/* End Container */}
+          </div>
+          {/* End Container */}
 
-          </section>
+        </section>
         {/* End Concept Section */}
 
         {/* Service Section */}
@@ -134,7 +134,7 @@ export default function Home() {
                 <p className="mx-auto leading-relaxed text-base text-gray-600">サービスと料金</p>
               </div>
 
-{/*
+              {/*
               <div className="grid justify-items-center">
                 <Link href="/" className="flex">
                   <Image
@@ -154,62 +154,62 @@ export default function Home() {
 
                 <div className="flex flex-wrap items-stretch -mx-7">
 
-                <FadeInBottom>
-                  <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
-                      <div className="space-y-2">
-                        <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
-                        <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～18:00 遊び放題</p>
-                        <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,000</span>
+                  <FadeInBottom>
+                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                      <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
+                        <div className="space-y-2">
+                          <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
+                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～18:00 遊び放題</p>
+                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,000</span>
+                        </div>
+                        {/*<button type="button" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</button>*/}
                       </div>
-                      {/*<button type="button" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</button>*/}
                     </div>
-                  </div>
                   </FadeInBottom>
 
                   <FadeInBottom>
-                  <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
-                      <div className="space-y-2">
-                        <h4 className="sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
+                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                      <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
+                        <div className="space-y-2">
+                          <h4 className="sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
                           <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki">18:00～21:00 遊び放題</p>
-                        <span className="sm:text-3xl lg:text-5xl font-bold">￥1,500</span>
+                          <span className="sm:text-3xl lg:text-5xl font-bold">￥1,500</span>
+                        </div>
+                        {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-slate-950 text-gray-100">Get Started</a>*/}
                       </div>
-                      {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-slate-950 text-gray-100">Get Started</a>*/}
                     </div>
-                  </div>
                   </FadeInBottom>
 
                   <FadeInBottom>
-                  <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
-                      <div className="space-y-2">
-                        <h4 className="-mx-6 sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
-                        <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～21:00 遊び放題</p>
-                        <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,500</span>
+                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                      <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
+                        <div className="space-y-2">
+                          <h4 className="-mx-6 sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
+                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～21:00 遊び放題</p>
+                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,500</span>
+                        </div>
+                        {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                       </div>
-                      {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                     </div>
-                  </div>
                   </FadeInBottom>
 
                   <FadeInBottom>
-                  <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
-                    <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
-                      <div className="space-y-3">
-                        <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
-                        <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">いつでも2時間</p>
-                        <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥1,500</span>
+                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                      <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
+                        <div className="space-y-3">
+                          <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
+                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">いつでも2時間</p>
+                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥1,500</span>
+                        </div>
+                        {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                       </div>
-                      {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                     </div>
-                  </div>
                   </FadeInBottom>
 
                 </div>
-                
-                <button type="button" className="px-12 py-3 m-8 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
-  
+                <FadeInBottom>
+                  <button type="button" className="px-12 py-3 m-8 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
+                </FadeInBottom>
               </div>
 
               {/* End Container */}
@@ -306,8 +306,8 @@ export default function Home() {
                       <li>東京都台東区東上野４丁目１０−８　川崎ビル２階</li>
                     </ul>
                     <ul className="list-none pl-5 text-xl space-y-2">
-                    <li className='font-bold'>交通アクセス</li>
-                    <li>JR山手線他／上野駅　入谷口徒歩3分</li>
+                      <li className='font-bold'>交通アクセス</li>
+                      <li>JR山手線他／上野駅　入谷口徒歩3分</li>
                       <li>東京メトロ日比谷線／上野駅　1番出口徒歩5分</li>
                     </ul>
                   </div>
@@ -325,102 +325,104 @@ export default function Home() {
 
         {/* FAQ Section */}
         <FadeInBottom>
-        <section id="faq" className="bg-gray-50 py-20">
-          {/* Container */}
-          <div className="container mx-auto px-6">
-            <div className="flex flex-col w-full mb-12">
-              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900 text-center">FAQ</h1>
-              <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-              <p className="mx-auto leading-relaxed text-bas text-gray-600">よくある質問</p>
+          <section id="faq" className="bg-gray-50 py-20">
+            {/* Container */}
+            <div className="container mx-auto px-6">
+              <div className="flex flex-col w-full mb-12">
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900 text-center">FAQ</h1>
+                <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
+                <p className="mx-auto leading-relaxed text-bas text-gray-600">よくある質問</p>
 
-              <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
-                <div className="space-y-4">
-                  <details className="w-full border rounded-lg bg-white">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      大丈夫です！ おすすめのボードゲームを人数や所要時間、難易度ごとに丁寧にご紹介していますので、初心者の方でも楽しめるゲームがすぐに見つけられます！</p>
-                  </details>
-                  <details className="w-full border rounded-lg bg-white">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      持ち込みもOKです。 ただし、ギャンブルをイメージさせるような麻雀・ポーカートランプなどはご遠慮いただいております。あらかじめご了承ください。 
-                    </p>
-                  </details>
-                  <details className="w-full border rounded-lg bg-white">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">飲食物の持ち込みルールはありますか？</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      お菓子や飲み物の持ち込みはOKです。ただしアルコール類やボードゲームが汚れやすい食べ物の持ち込みは禁止です。</p>
-                  </details>
-                  <details className="w-full border rounded-lg bg-white">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">料金の支払方法は？</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                      ご予約当日のご来店時に、現金またはPayPayでお支払いください。 
-                    </p>
-                  </details>
-                  <details className="w-full border rounded-lg bg-white">
-                    <summary className="px-4 py-6 focus:outline-none focus-visible:ri">その他注意事項</summary>
-                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                    9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
-                    <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">InstagramのDMにご連絡ください。</a></p>
-                  </details>
+                <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
+                  <div className="space-y-4">
+                    <details className="w-full border rounded-lg bg-white">
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
+                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                        大丈夫です！ おすすめのボードゲームを人数や所要時間、難易度ごとに丁寧にご紹介していますので、初心者の方でも楽しめるゲームがすぐに見つけられます！</p>
+                    </details>
+                    <details className="w-full border rounded-lg bg-white">
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
+                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                        持ち込みもOKです。 ただし、ギャンブルをイメージさせるような麻雀・ポーカートランプなどはご遠慮いただいております。あらかじめご了承ください。
+                      </p>
+                    </details>
+                    <details className="w-full border rounded-lg bg-white">
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">飲食物の持ち込みルールはありますか？</summary>
+                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                        お菓子や飲み物の持ち込みはOKです。ただしアルコール類やボードゲームが汚れやすい食べ物の持ち込みは禁止です。</p>
+                    </details>
+                    <details className="w-full border rounded-lg bg-white">
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">料金の支払方法は？</summary>
+                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                        ご予約当日のご来店時に、現金またはPayPayでお支払いください。
+                      </p>
+                    </details>
+                    <details className="w-full border rounded-lg bg-white">
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">その他注意事項</summary>
+                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
+                        9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
+                        <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">InstagramのDMにご連絡ください。</a></p>
+                    </details>
+                  </div>
                 </div>
-              </div>
 
+              </div>
+              {/* End Container */}
             </div>
-            {/* End Container */}
-          </div>
-        </section>
+          </section>
         </FadeInBottom>
         {/* End FAQ Section */}
 
 
         {/* Contact Section */}
-        <section id="contact" className="bg-white py-20">
-          {/* Container */}
-          <div className="container mx-auto px-6 text-center">
-            <div className="flex flex-col w-full mb-12">
-              <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Contact</h1>
-              <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
-              <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
-              <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
+        <FadeInBottom>
+          <section id="contact" className="bg-white py-20">
+            {/* Container */}
+            <div className="container mx-auto px-6 text-center">
+              <div className="flex flex-col w-full mb-12">
+                <h1 className="sm:text-5xl text-3xl font-bold mb-2 text-gray-900">Contact</h1>
+                <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
+                <p className="mx-auto leading-relaxed text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
+                <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8 text-gray-900">
 
-                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
-                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
-                    <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">
-                      <FontAwesomeIcon icon={faEnvelope} className="h-10 text-gray-800 hover:text-yellow-300" />
-                    </a>
+                  <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                    <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
+                      <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">
+                        <FontAwesomeIcon icon={faEnvelope} className="h-10 text-gray-800 hover:text-yellow-300" />
+                      </a>
+                    </div>
+                    <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                      <p><a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">　tretar.info@gmail.com　</a></p>
+                    </div>
                   </div>
-                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank">　tretar.info@gmail.com　</a></p>
-                  </div>
-                </div>
 
-                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
-                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
-                    <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">
-                      <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-800 hover:text-yellow-300" />
-                    </a>
+                  <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                    <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
+                      <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">
+                        <FontAwesomeIcon icon={faXTwitter} className="h-10 text-gray-800 hover:text-yellow-300" />
+                      </a>
+                    </div>
+                    <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                      <p><a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">　@TRETARboardgame　</a></p>
+                    </div>
                   </div>
-                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank">　@TRETARboardgame　</a></p>
-                  </div>
-                </div>
 
-                <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
-                  <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
-                  <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">
-                  <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-800 hover:text-yellow-300" />
-                </a>
-                  </div>
-                  <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
-                    <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">　tretar_boardgame　　</a></p>
+                  <div className="flex flex-col items-center pb-10 mx-auto my-10 border-b border-gray-200 max-w-7xl sm:flex-row">
+                    <div className="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 text-neutral-600 rounded-full sm:mr-10">
+                      <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} className="h-10 text-gray-800 hover:text-yellow-300" />
+                      </a>
+                    </div>
+                    <div className="flex-grow mt-6 prose text-center sm:text-left sm:mt-0 prose-md  text-gray-800 hover:text-yellow-300">
+                      <p><a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">　tretar_boardgame　　</a></p>
+                    </div>
                   </div>
                 </div>
               </div>
+              {/* End Container */}
             </div>
-            {/* End Container */}
-          </div>
-        </section>
+          </section>
+        </FadeInBottom>
         {/* End Contact Section */}
 
 
