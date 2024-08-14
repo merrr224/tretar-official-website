@@ -51,21 +51,21 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className='sm:pt-16 pt-20'>
+      <main className='sm:pt-20 pt-16'>
 
         {/* Hero Section */}
-        <section className="grid place-items-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
+        <section className="grid items-center justify-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
           <FadeInBottom>
             <div className="text-center">
               {/* Content */}
-              <h1 className="text-white lg:text-8xl sm:text-7xl text-4xl sm:font-extrabold font-bold pb-10">
+              <h1 className="mx-2 text-white lg:text-8xl sm:text-6xl text-4xl sm:font-extrabold font-bold pb-10">
                 Let&#39;s Play Boardgame!
               </h1>
 
-              <p className="text-white sm:text-lg text-xs sm:font-normal font-light">
+              <p className="mx-14 text-white lg:text-lg sm:text-base text-xs sm:font-normal font-light">
                 大人から子供まで誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
-                心地よくて思わずついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？<br />
-                <span className="font-medium sm:text-lg text-sm text-red-400">2024年9月OPEN予定！</span>
+                心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？<br />
+                <span className="font-medium sm:text-lg text-sm text-yellow-400">2024年9月OPEN予定</span>
               </p>
             </div>
           </FadeInBottom>
@@ -74,7 +74,7 @@ export default function Home() {
 
 
         {/* Concept Section */}
-        <section id="concept" className="bg-gray-50 py-20">
+        <section id="concept" className="bg-gray-50 sm:py-20 py-12">
           {/* Container */}
           <div className="container mx-auto px-auto">
             <div className="flex flex-col text-center w-full mb-6">
@@ -87,14 +87,14 @@ export default function Home() {
                 <span className="w-28 h-[2px] my-5 rounded-full bg-yellow-300 mx-auto"></span>
               </FadeInBottom>
               <FadeInBottom>
-                <p className="mt-4 mx-20 lg:mx-auto leading-relaxed sm:text-base text-sm text-gray-600">
-                  「TRETÅR」とは「3杯目のおかわりのコーヒー」を<br />意味するスウェーデン独自の言葉です
+                <p className="mt-4 lg:mx-auto sm:mx-24 mx-14 leading-relaxed sm:text-base text-sm text-gray-600">
+                  「TRETÅR」とは「3杯目のおかわりのコーヒー」を意味するスウェーデン独自の言葉です
                   <br /><br />
-                  ” 思わず3杯おかわりしてしまうほど<br />ゆったりとした時間を過ごせる  ”
+                  ” 思わず3杯おかわりしてしまうほどゆったりとした時間を過ごせる  ”
                   <br /><br />
-                  ここTRETÅRでは、そんな幸せな価値観を感じられるような<br />居心地の良い空間をご用意しています
+                  ここTRETÅRでは、そんな幸せな価値観を感じられるような居心地の良い空間をご用意しています
                   <br /><br />
-                  あなたもTRETÅRで「3杯目のおかわり」をしたくなるほどの<br />至福のボードゲーム体験をしてみませんか？
+                  あなたもTRETÅRで「3杯目のおかわり」をしたくなるほどの至福のボードゲーム体験をしてみませんか？
                 </p>
               </FadeInBottom>
 
@@ -125,7 +125,7 @@ export default function Home() {
 
         {/* Service Section */}
         <FadeInBottom>
-          <section id="service" className="bg-white py-20">
+          <section id="service" className="bg-white sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6 text-center  animate-tilt-in-bottom-1">
               <div className="flex flex-col w-full mb-12">
@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="flex flex-wrap items-stretch -mx-7">
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
                         <div className="space-y-2">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
@@ -168,7 +168,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
                         <div className="space-y-2">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
@@ -181,7 +181,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-2">
                           <h4 className="-mx-6 sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
@@ -194,7 +194,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-20 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-3">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
@@ -221,7 +221,7 @@ export default function Home() {
 
         {/* Gallary Section */}
         <FadeInBottom>
-          <section id="gallary" className="bg-gray-50 py-20">
+          <section id="gallary" className="bg-gray-50 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
               <div className="flex flex-col w-full mb-12">
@@ -272,7 +272,7 @@ export default function Home() {
 
         {/* Access Section */}
         <FadeInBottom>
-          <section id="access" className=" bg-white py-20">
+          <section id="access" className=" bg-white sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">
@@ -325,7 +325,7 @@ export default function Home() {
 
         {/* FAQ Section */}
         <FadeInBottom>
-          <section id="faq" className="bg-gray-50 py-20">
+          <section id="faq" className="bg-gray-50 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col w-full mb-12">
@@ -376,7 +376,7 @@ export default function Home() {
 
         {/* Contact Section */}
         <FadeInBottom>
-          <section id="contact" className="bg-white py-20">
+          <section id="contact" className="bg-white sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
               <div className="flex flex-col w-full mb-12">
