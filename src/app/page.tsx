@@ -155,7 +155,7 @@ export default function Home() {
                 <div className="flex flex-wrap items-stretch -mx-7">
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
                         <div className="space-y-2">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
@@ -168,7 +168,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
                         <div className="space-y-2">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
@@ -181,7 +181,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-2">
                           <h4 className="-mx-6 sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
@@ -194,7 +194,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-3">
                           <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
