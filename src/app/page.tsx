@@ -17,7 +17,7 @@ export default function Home() {
           <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 
             <Link href="/" className="flex">
-              <Image src="/logo/TRETAR-logo-navbar.png" alt="SIMPLE" className="sm:h-10 w-auto h-8" width={960} height={540} priority />
+              <Image src="/logo/TRETAR-logo-navbar.png" alt="TRETÅR logo" className="sm:h-10 w-auto h-8" width={960} height={540} priority />
             </Link>
           </a>
           <ul className="items-stretch hidden space-x-3 lg:flex">
@@ -432,7 +432,9 @@ export default function Home() {
                     />
                   </Link>
                 </div>
-                <button type="button" className="px-8 py-3 text-base sm:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">予約サイトへ</button>
+                <button type="button" className="px-8 py-3 text-base sm:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
+                  <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link>
+                </button>
               </a>
             </div>
             <div className="col-span-6 text-center md:text-left md:col-span-3">
