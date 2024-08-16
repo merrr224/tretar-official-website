@@ -43,8 +43,8 @@ export default function Home() {
               <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Contact</a>
             </li>
           </ul>
-          <div className="items-center flex-shrink-0  lg:flex">
-            <button className="self-center px-8 py-3 font-semibold rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-500">
+          <div className="items-center flex-shrink-0 lg:flex">
+            <button className="self-center px-7 sm:px-8 py-2 sm:py-3 text-base md:text-lg font-medium rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
               <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link></button>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
       <main className='sm:pt-20 pt-16'>
 
         {/* Hero Section */}
-        <section className="grid items-center justify-center aspect-[16/9] bg-cover bg-[url('/bg-img/img-play_02_blur_v2.png')] ">
+        <section className="grid items-center justify-center aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')] ">
           <FadeInBottom>
             <div className="text-center">
               {/* Content */}
@@ -99,24 +99,6 @@ export default function Home() {
               </FadeInBottom>
 
             </div>
-            {/* 
-                  世界有数の幸せな国スウェーデン、そんなのどかな土地には日本語にはない価値観の「TRETÅR」という言葉があります。
-                  <br />
-                  「TRETÅR」は「3杯目のおかわりのコーヒー」のことを意味する国特有の言葉で、
-                  ”思わず3杯おかわりしてしまうほどゆっくり時間を過ごせる”という幸せな価値観に私たちは惚れ込みました。
-                  <br />
-                  ここTRETÅRでは、そんな価値観が味わえるような”ボードゲームをしながらゆったりとした時間が楽しめる空間”を目指しています。
-                  <br />
-                  あなたもTRETÅRで「3杯目のおかわり」をしたくなるほどの至福のボードゲーム体験を。
-              <Image
-                src="/bg-img/concept_02_wide.png"
-                alt="SIMPLE"
-                className="w-auto"
-                width={1735}
-                height={785}
-                priority
-              />
-              */}
           </div>
           {/* End Container */}
 
@@ -155,12 +137,12 @@ export default function Home() {
                 <div className="flex flex-wrap items-stretch -mx-7">
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
                         <div className="space-y-2">
-                          <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
-                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～18:00 遊び放題</p>
-                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,000</span>
+                          <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
+                          <p className="-mx-4 pb-2 text-base lg:text-lg tracki text-gray-800">13:00～18:00 遊び放題</p>
+                          <span className="text-lg sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,000</span>
                         </div>
                         {/*<button type="button" className="inline-block px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</button>*/}
                       </div>
@@ -168,12 +150,12 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
                         <div className="space-y-2">
-                          <h4 className="sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
-                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki">18:00～21:00 遊び放題</p>
-                          <span className="sm:text-3xl lg:text-5xl font-bold">￥1,500</span>
+                          <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
+                          <p className="-mx-4 pb-2 text-base lg:text-lg tracki">18:00～21:00 遊び放題</p>
+                          <span className="text-lg sm:text-3xl lg:text-5xl font-bold">￥1,500</span>
                         </div>
                         {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracki text-center rounded bg-slate-950 text-gray-100">Get Started</a>*/}
                       </div>
@@ -181,12 +163,12 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-2">
-                          <h4 className="-mx-6 sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
-                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">13:00～21:00 遊び放題</p>
-                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,500</span>
+                          <h4 className="-mx-6 text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
+                          <p className="-mx-4 pb-2 text-base lg:text-lg tracki text-gray-800">13:00～21:00 遊び放題</p>
+                          <span className="text-lg sm:text-3xl lg:text-5xl font-bold text-gray-800">￥2,500</span>
                         </div>
                         {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                       </div>
@@ -194,12 +176,12 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-3">
-                          <h4 className="sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
-                          <p className="-mx-4 pb-2 sm:text-base lg:text-lg tracki text-gray-800">いつでも2時間</p>
-                          <span className="sm:text-3xl lg:text-5xl font-bold text-gray-800">￥1,500</span>
+                          <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
+                          <p className="-mx-4 pb-2 text-base lg:text-lg tracki text-gray-800">いつでも2時間</p>
+                          <span className="text-lg sm:text-3xl lg:text-5xl font-bold text-gray-800">￥1,500</span>
                         </div>
                         {/*<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracki text-center rounded bg-gray-400 text-gray-900">Get Started</a>*/}
                       </div>
@@ -208,7 +190,9 @@ export default function Home() {
 
                 </div>
                 <FadeInBottom>
-                  <button type="button" className="px-12 py-3 m-8 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
+                  <button type="button" className="px-12 py-3 m-8 text-base sm:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
+                    <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link>
+                  </button>
                 </FadeInBottom>
               </div>
 
@@ -361,7 +345,7 @@ export default function Home() {
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">その他注意事項</summary>
                       <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
                         9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
-                        <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank">InstagramのDMにご連絡ください。</a></p>
+                        <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-300'>Instagram</span>のDMにご連絡ください。</a></p>
                     </details>
                   </div>
                 </div>
@@ -448,7 +432,7 @@ export default function Home() {
                     />
                   </Link>
                 </div>
-                <button type="button" className="px-8 py-3 text-lg rounded-full bg-indigo-800 text-gray-200">予約サイトへ</button>
+                <button type="button" className="px-8 py-3 text-base sm:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">予約サイトへ</button>
               </a>
             </div>
             <div className="col-span-6 text-center md:text-left md:col-span-3">
@@ -458,19 +442,22 @@ export default function Home() {
                   <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">NEWS</a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">CONCEPT</a>
+                  <a rel="noopener noreferrer" href="#concept" className="hover:text-yellow-300">CONCEPT</a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">SERVICE</a>
+                  <a rel="noopener noreferrer" href="#service" className="hover:text-yellow-300">SERVICE</a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">GALLARY</a>
+                  <a rel="noopener noreferrer" href="#gallary" className="hover:text-yellow-300">GALLARY</a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">ACCESS</a>
+                  <a rel="noopener noreferrer" href="#access" className="hover:text-yellow-300">ACCESS</a>
                 </li>
                 <li>
-                  <a rel="noopener noreferrer" href="#" className="hover:text-yellow-300">CONTACT</a>
+                  <a rel="noopener noreferrer" href="#faq" className="hover:text-yellow-300">FAQ</a>
+                </li>
+                <li>
+                  <a rel="noopener noreferrer" href="#contact" className="hover:text-yellow-300">CONTACT</a>
                 </li>
               </ul>
             </div>
