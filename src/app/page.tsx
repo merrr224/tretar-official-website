@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="flex flex-wrap items-stretch -mx-7">
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 md:px-4 md:w-1/2 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-yellow-50">
                         <div className="space-y-2">
                           <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">デイプラン</h4>
@@ -150,7 +150,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 md:px-4 md:w-1/2 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-slate-700 text-white">
                         <div className="space-y-2">
                           <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold ">ナイトプラン</h4>
@@ -163,7 +163,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 md:px-4 md:w-1/2 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-2">
                           <h4 className="-mx-6 text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800"><span className="font-medium text-sm text-red-500">★おすすめ</span> フリープラン</h4>
@@ -176,7 +176,7 @@ export default function Home() {
                   </FadeInBottom>
 
                   <FadeInBottom>
-                    <div className="flex w-full mb-8 px-14 sm:px-4 sm:w-1/2 md:w-1/4 lg:w-1/4 lg:px-4 lg:mb-0">
+                    <div className="flex w-full mb-8 px-14 md:px-4 md:w-1/2 lg:w-1/4 lg:px-4 lg:mb-0">
                       <div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-indigo-50">
                         <div className="space-y-3">
                           <h4 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-800">ショートプラン</h4>
@@ -322,7 +322,7 @@ export default function Home() {
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
                       <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                        大丈夫です！ おすすめのボードゲームを人数や所要時間、難易度ごとに丁寧にご紹介していますので、初心者の方でも楽しめるゲームがすぐに見つけられます！</p>
+                        大丈夫です！初心者にもおすすめできるボードゲームをわかりやすく展示しておりますので、楽しめるゲームがすぐに見つけられます！</p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
