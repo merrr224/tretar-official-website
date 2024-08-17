@@ -322,7 +322,7 @@ export default function Home() {
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
                       <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-900">
-                        大丈夫です！初心者にもおすすめできるボードゲームをわかりやすく展示しておりますので、楽しめるゲームがすぐに見つけられます！</p>
+                        大丈夫です！初心者にもおすすめのボードゲームを多数ご用意しております！</p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
