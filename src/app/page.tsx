@@ -188,6 +188,12 @@ export default function Home() {
                     </div>
                   </FadeInBottom>
 
+                  <FadeInBottom>
+                    <p className="px-5 py-5 ml-4 text-gray-900">
+                          ※9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
+                          <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-300'>Instagram</span>のDMにご連絡ください。</a></p>
+                  </FadeInBottom>
+
                 </div>
                 <FadeInBottom>
                   <button type="button" className="px-12 py-3 m-8 text-base sm:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
