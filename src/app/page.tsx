@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="bg-gray-100">
       <header className="z-50 p-4 w-full bg-white shadow text-gray-700 fixed">
-        <div className="container flex justify-between h-8 xs:h-10 sm:h-14 mx-auto">
+        <div className="container flex justify-between items-center h-8 xs:h-10 sm:h-14 mx-auto">
           <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 
             <Link href="/" className="flex">
@@ -43,8 +43,8 @@ export default function Home() {
               <a rel="noopener noreferrer" href="#contact" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Contact</a>
             </li>
           </ul>
-          <div className="items-center flex-shrink-0 lg:flex">
-            <button className="self-center px-6 xs:px-7 sm:px-8 py-2 sm:py-3 text-sm xs:text-base lg:text-lg font-medium rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
+          <div className="flex-shrink-0 lg:flex">
+            <button className="self-center px-[1.3rem] xs:px-6 sm:px-8 xl:px-10 py-[0.60rem] sm:py-3 text-xs xs:text-sm md:text-base xl:text-lg font-medium rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
               <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link></button>
           </div>
         </div>
@@ -54,20 +54,23 @@ export default function Home() {
       <main className='pt-16 sm:pt-20'>
 
         {/* Hero Section */}
-        <section className="grid items-center justify-center aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')] ">
+        {/* grid text-center place-items-center  */}
+        <section className="flex flex-col justify-center text-center gap-[0.4rem] xs:gap-3 sm:gap-6 md:gap-10 lg:gap-14 xl:gap-20 pt-16 xs:pt-[4.8rem] sm:pt-28 md:pt-36 lg:pt-44 xl:pt-56 aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')]">
+        {/* Overlay */}
+        <div className="absolute inset-0 aspect-[16/9] mt-16 sm:mt-20 bg-black opacity-35"></div>
           <FadeInBottom>
-            <div className="text-center">
               {/* Content */}
-              <h1 className="mx-2 text-white text-3xl xs:text-4xl md:text-6xl lg:text-8xl font-semibold xs:font-bold sm:font-extrabold pb-10">
+              <div className="relative z-10 text-white text-[1.95rem] xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold md:font-extrabold lg:black">
                 Let&#39;s Play Boardgame!
-              </h1>
+              </div>
 
-              <p className="mx-11 xs:mx-14 text-white text-[0.6rem] xs:text-xs sm:text-base lg:text-lg sm:font-normal font-light">
-                大人から子供まで誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
-                心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？<br />
-              </p>
-              <span className="font-medium text-xs xs:text-sm sm:text-lg text-yellow-400">2024年9月1日OPEN予定</span>
-            </div>
+              {/* mx-11 xs:mx-14  text-[0.6rem]*/}
+              <div className="relative z-10 mx-4 xs:mt-1 text-white text-[0.65rem] xs:text-xs sm:txt-sm md:text-base lg:text-lg xl:text-xl font-medium sm:font-semibold">
+                大人も子供も誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
+                心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？
+              </div>
+              <div className="relative z-10 font-bold text-xs xs:text-sm sm:text-lg lg:text-xl xl:text-2xl text-yellow-400">2024年9月1日OPEN予定</div>
+            
           </FadeInBottom>
         </section>
         {/* End Hero Section */}
@@ -87,12 +90,12 @@ export default function Home() {
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
               </FadeInBottom>
               <FadeInBottom>
-                <p className="mt-4 mx-12 xs:mx-14 sm:mx-24 lg:mx-auto leading-relaxed text-xs xs:text-sm sm:text-base text-gray-600">
-                  「TRETÅR」とは「3杯目のおかわりのコーヒー」を意味するスウェーデン独自の言葉です。
+                <p className="mt-4 mx-11 xs:mx-12 sm:mx-18 lg:mx-auto leading-relaxed text-xs xs:text-sm sm:text-base text-gray-600">
+                  「TRETÅR（トレートール）」とは「3杯目のおかわりのコーヒー」を意味するスウェーデン独自の言葉です
                   <br /><br />
-                  ” 思わず3杯おかわりしてしまうほどゆったりとした時間を過ごせる  ”
+                  ”思わず3杯おかわりしてしまうほどゆったりとした時間を過ごせる”
                   <br /><br />
-                  ここTRETÅRでは、そんな幸せな価値観を感じられるような居心地の良い空間をご用意しています。
+                  ここTRETÅRでは、そんな幸せな価値観を感じられるような居心地の良い空間をご用意しています
                   <br /><br />
                   あなたもTRETÅRで「3杯目のおかわり」をしたくなるほどの至福のボードゲーム体験をしてみませんか？
                 </p>
@@ -143,7 +146,7 @@ export default function Home() {
                   <div className="w-full md:w-1/2 xl:w-1/4 px-px sm:px-4 xl:px-2 mb-6 xs:mb-8 xl:mb-0">
                     <div className="bg-gray-600 text-white text-center rounded-t-sm">
                       <div className="py-2 text-base sm:text-lg md:text-xl xl:text-2xl font-semibold">ナイトプラン</div>
-                      <div className="pb-2 text-base lg:text-lg tracking-tight">18:00〜21:00 遊び放題</div>
+                      <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">18:00〜21:00 遊び放題</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
                       <span className="text-xl sm:text-2xl font-semibold line-through">¥1,500</span>
@@ -160,7 +163,7 @@ export default function Home() {
                         <span className="text-base sm:text-lg md:text-xl xl:text-2xl font-semibold">フリープラン</span>
                         <span className="ml-1 text-base font-medium text-yellow-400">★おすすめ</span>
                       </div>
-                      <div className="pb-2 text-base lg:text-lg tracking-tight">13:00〜21:00 遊び放題</div>
+                      <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">13:00〜21:00 遊び放題</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
                       <span className="text-xl sm:text-2xl font-semibold line-through">¥2,500</span>
@@ -174,7 +177,7 @@ export default function Home() {
                   <div className="w-full md:w-1/2 xl:w-1/4 px-px sm:px-4 xl:px-2 mb-6 xs:mb-8 xl:mb-0">
                     <div className="bg-gray-600 text-white text-center rounded-t-sm">
                       <div className="py-2 text-base sm:text-lg md:text-xl xl:text-2xl font-semibold">ショートプラン</div>
-                      <div className="pb-2 text-base lg:text-lg tracking-tight">いつでも2時間</div>
+                      <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">いつでも2時間</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
                       <span className="text-xl sm:text-2xl font-semibold line-through">¥1,500</span>
@@ -286,7 +289,7 @@ export default function Home() {
                       <li className='font-semibold'>営業時間</li>
                       <li>土曜／日曜／祝日　13:00～21:00</li>
                     </ul>
-                    <ul className="list-none pl-5 md:pl-1 text-sm xs:text-base lg:text-xl py-12">
+                    <ul className="list-none pl-5 md:pl-1 text-sm xs:text-base lg:text-xl py-8 xs:py-10 sm:py-12">
                       <li className='font-semibold'>住所</li>
                       <li>東京都台東区東上野４丁目１０−８　川崎ビル２階</li>
                     </ul>
@@ -318,33 +321,33 @@ export default function Home() {
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">よくある質問</p>
 
-                <div className="container flex flex-col justify-center text-left ml-4 px-0 lg:px-4 pt-8 pb-0 lg:pb-8 mx-auto text-gray-900">
+                <div className="container flex flex-col justify-center text-left px-0 lg:px-4 pt-8 pb-0 lg:pb-8 mx-auto text-gray-900">
                   <div className="space-y-4 text-xs xs:text-sm lg:text-base">
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームは初心者なのですが、大丈夫ですか？</summary>
-                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 font-semibold text-gray-900">
+                      <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
                         大丈夫です！初心者にもおすすめのボードゲームを多数ご用意しております！</p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">ボードゲームを持ち込んでもいいですか？</summary>
-                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 font-semibold text-gray-900">
+                      <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
                         持ち込みもOKです。 ただし、ギャンブルをイメージさせるような麻雀・ポーカートランプなどはご遠慮いただいております。あらかじめご了承ください。
                       </p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">飲食物の持ち込みルールはありますか？</summary>
-                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 font-semibold text-gray-900">
+                      <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
                         お菓子や飲み物の持ち込みはOKです。ただしアルコール類やボードゲームが汚れやすい食べ物の持ち込みは禁止です。また、ゴミは各自でお持ち帰りいただきますようお願いいたします。</p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">料金の支払方法は？</summary>
-                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 font-semibold text-gray-900">
+                      <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
                         ご予約当日のご来店時に、現金またはPayPayでお支払いください。
                       </p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
                       <summary className="px-4 py-6 focus:outline-none focus-visible:ri">その他注意事項</summary>
-                      <p className="px-4 py-6 pt-0 ml-4 -mt-4 font-semibold text-gray-900">
+                      <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
                         9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
                         <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-300'>Instagram</span>のDMにご連絡ください。</a></p>
                     </details>
