@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { FC } from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope, faAngleRight, faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -9,17 +10,86 @@ import { faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FadeInBottom, KenBurnsBottom, TiltInBottom } from './components/animation';
 //import { faBars, faSquareXTwitter, faSquareInstagram } from '@fortawesome/free-solid-svg-icons';
 
+interface ImageData {
+  src: string;
+  alt: string;
+}
+const images: ImageData[] = [
+  { src: '/gallery/IMG_5012.jpeg', alt: '店内には多種多様なボードゲームをご用意しています' },
+  { src: '/gallery/DSC05059.JPG', alt: '店内には多種多様なボードゲームをご用意しています' },
+  { src: '/gallery/DSC05047.JPG', alt: '落ち着いた雰囲気の店内でゆったりお過ごしいただけます' },
+  { src: '/gallery/DSC05038.JPG', alt: 'JR上野駅から徒歩3分でアクセスしやすい立地です' },
+  { src: '/gallery/DSC05044.JPG', alt: '店舗は階段を登って2階にございます。TRETÅRのプレートが目印です' },
+  { src: '/gallery/IMG_5013.jpeg', alt: 'ボードゲーム初心者でも楽しめる空間づくりを目指しています' },
+  // 追加の画像をここに追加
+];
+
+const ImageGrid: FC = () => {
+  return (
+    <div className="columns-2 md:columns-3 lg:mx-12">
+      {images.map((image, index) => (
+        <div key={index} className="relative w-full h-40 xs:h-48 sm:h-64 lg:h-72 xl:h-96 mb-4">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg"
+          />
+        </div>
+      ))}
+    </div>
+  );
+};
+
+{/*
+interface ImageData {
+  src: string;
+  alt: string;
+  w: number;
+  h: number;
+}
+const images: ImageData[] = [
+  { src: '/gallery/IMG_5012.jpeg', alt: '店内には多種多様なボードゲームをご用意しています', w:4032, h:3024 },
+  { src: '/gallery/DSC05059.JPG', alt: '店内には多種多様なボードゲームをご用意しています', w:1616, h:1080 },
+  { src: '/gallery/DSC05047.JPG', alt: '落ち着いた雰囲気の店内でゆったりお過ごしいただけます', w:1616, h:1080 },
+  { src: '/gallery/DSC05038.JPG', alt: 'JR上野駅から徒歩3分でアクセスしやすい立地です', w:1080, h:1616 },
+  { src: '/gallery/DSC05044.JPG', alt: '店舗は階段を登って2階にございます。TRETÅRのプレートが目印です', w:1616, h:1080 },
+  { src: '/gallery/IMG_5013.jpeg', alt: 'ボードゲーム初心者でも楽しめる空間づくりを目指しています', w:3024, h:4032 },
+  // 追加の画像をここに追加
+];
+
+const ImageGrid: FC = () => {
+  return (
+    <div className="columns-2 md:columns-3 lg:columns-4">
+      {images.map((image, index) => (
+        <div key={index} className="relative mb-4">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            width={image.w}
+            height={image.h}
+            className="rounded-md"
+          />
+        </div>
+      ))}
+    </div>
+
+  );
+};
+*/}
+
+
 export default function Home() {
   return (
     <div className="bg-gray-100">
       <header className="z-50 p-4 w-full bg-white shadow text-gray-700 fixed">
         <div className="container flex justify-between items-center h-8 xs:h-10 sm:h-14 mx-auto">
-          <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
-
+          <div rel="noopener noreferrer" className="flex items-center p-2">
             <Link href="/" className="flex">
               <Image src="/logo/TRETAR-logo-navbar.png" alt="TRETÅR logo" className="h-6 xs:h-7 sm:h-10 w-auto" width={960} height={540} priority />
             </Link>
-          </a>
+          </div>
           <ul className="items-stretch hidden space-x-3 lg:flex">
             <li className="flex">
               <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">News</a>
@@ -55,7 +125,7 @@ export default function Home() {
 
         {/* Hero Section */}
         {/* grid text-center place-items-center  */}
-        <section className="flex flex-col justify-center text-center gap-[0.4rem] xs:gap-3 sm:gap-6 md:gap-10 lg:gap-14 xl:gap-20 pt-16 xs:pt-[4.8rem] sm:pt-28 md:pt-36 lg:pt-44 xl:pt-56 aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')]">
+        <section className="flex flex-col justify-center text-center gap-[0.4rem] xs:gap-3 sm:gap-6 md:gap-10 lg:gap-14 xl:gap-20 pt-14 xs:pt-[4.8rem] sm:pt-28 md:pt-36 lg:pt-44 xl:pt-56 aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')]">
         {/* Overlay */}
         <div className="absolute inset-0 aspect-[16/9] mt-16 sm:mt-20 bg-black opacity-35"></div>
           <FadeInBottom>
@@ -108,7 +178,7 @@ export default function Home() {
 
         {/* Service Section */}
         <FadeInBottom>
-          <section id="service" className="bg-white sm:py-20 py-12">
+          <section id="service" className="bg-gray-100 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6 text-center  animate-tilt-in-bottom-1">
               <div className="flex flex-col w-full mb-12">
@@ -210,9 +280,36 @@ export default function Home() {
         {/* End Service Section */}
 
 
+        {/* Lineup Section */}
+        <FadeInBottom>
+          <section id="access" className=" bg-gray-50 sm:py-20 py-12">
+            {/* Container */}
+            <div className="container mx-auto px-6">
+              <div className="flex flex-col text-center w-full mb-12">
+                <h1 className="text-2xl xs:text-3xl md:text-5xl font-semibold xs:font-bold mb-2 text-gray-900">Lineup</h1>
+                <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
+                <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">多種多様なボードゲームをご用意しています</p>
+
+                <div className="mt-4">
+                  <iframe
+                    className="h-[70vh] w-full min-w-full bg-transparent p-2.5 border border-gray-300 mx-auto overflow-auto box-border"
+                    src="https://bodoge.hoobby.net/spaces/tretar/embedded/games?q[order_type]=players_by_four_favorite_desc&image_size=small&font_size=small&icon_recommend=show&icon_new=show&name_en=show&myboardgame=show&staff_text=show&user_id=135189"
+                  >
+                    <a href="https://bodoge.hoobby.net/spaces/tretar/games" target="_blank">ボドゲーマで見る</a>
+                  </iframe>
+
+                </div>
+                
+              </div>
+            </div>
+          </section>
+        </FadeInBottom>
+        {/* End Gallary Section */}
+
+
         {/* Gallary Section */}
         <FadeInBottom>
-          <section id="gallary" className="bg-gray-50 sm:py-20 py-12">
+          <section id="gallary" className="bg-gray-100 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6 text-center">
               <div className="flex flex-col w-full mb-12">
@@ -220,37 +317,8 @@ export default function Home() {
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">ボードゲームをしながらゆったりとした時間が楽しめる空間をご用意しています</p>
 
-                <div className="relative flex items-center justify-center w-full h-64 xs:h-96 sm:h-auto mt-8 text-gray-50">
-                  <button aria-label="Slide back" type="button" className="absolute left-0 z-30 p-2 ml-10 bg-opacity-50 rounded-full focus:outline-none focus:bg-gray-400 focus:ri focus:ri focus:ri bg-gray-900">
-                    <svg width="8" height="14" fill="none" viewBox="0 0 8 14" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
-                      <path d="M7 1L1 7L7 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    </svg>
-                  </button>
-                  <div className="flex items-center justify-start w-full h-auto gap-3 sm:gap-6 py-4 overflow-auto">
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\IMG_5012.jpeg" alt="店内には多種多様なボードゲームをご用意しています" />
-                    </div>
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\DSC05059.JPG" alt="店内には多種多様なボードゲームをご用意しています" />
-                    </div>
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\DSC05047.JPG" alt="落ち着いた雰囲気の店内でゆったりお過ごしいただけます" />
-                    </div>
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\DSC05038.JPG" alt="JR上野駅から徒歩3分でアクセスしやすい立地です" />
-                    </div>
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\DSC05044.JPG" alt="店舗は階段を登って2階にございます。TRETÅRのプレートが目印です。" />
-                    </div>
-                    <div className="relative flex flex-shrink-0 w-auto">
-                      <img className="object-cover object-center bg-gray-500 h-64 xs:h-96 sm:h-auto max-h-[30rem] aspect-square" src="\gallery\IMG_5013.jpeg" alt="ボードゲーム初心者でも楽しめる空間づくりを目指しています" />
-                    </div>
-                  </div>
-                  <button aria-label="Slide forward" id="next" className="absolute right-0 z-30 p-2 mr-10 bg-opacity-50 rounded-full focus:outline-none focus:bg-gray-400 focus:ri focus:ri focus:ri bg-gray-900">
-                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-4 h-4">
-                      <path d="M1 1L7 7L1 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                    </svg>
-                  </button>
+                <div className='pt-6'>
+                  <ImageGrid />
                 </div>
 
               </div>
@@ -263,7 +331,7 @@ export default function Home() {
 
         {/* Access Section */}
         <FadeInBottom>
-          <section id="access" className=" bg-white sm:py-20 py-12">
+          <section id="access" className=" bg-gray-50 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">
@@ -275,9 +343,9 @@ export default function Home() {
               <div className="max-w-[85rem] px-4 py-0 lg:py-6 mx-auto">
                 {/* Grid */}
                 <div className="grid md:grid-cols-2 justify-items-center gap-8 md:gap-4">
-                  <div className="relative w-full pb-[56.25%]">
+                  <div className="relative w-full pb-[80%]">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4852050567706!2d139.77735831282322!3d35.71428387246221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e997cc92239%3A0x7490aab200e57b44!2z44CSMTEwLTAwMTUg5p2x5Lqs6YO95Y-w5p2x5Yy65p2x5LiK6YeO77yU5LiB55uu77yR77yQ4oiS77yY!5e0!3m2!1sja!2sjp!4v1720010883338!5m2!1sja!2sjp"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d729.8963655998609!2d139.77961714995345!3d35.71434353746335!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fd2a2403c27%3A0x603a0c4ec02369a4!2zVFJFVMOFUiDjg4jjg6zjg7zjg4jjg7zjg6sgLyDkuIrph44g44Oc44O844OJ44Ky44O844Og44K544Oa44O844K5!5e0!3m2!1sja!2sjp!4v1724682986500!5m2!1sja!2sjp"
                       className="absolute top-0 left-0 w-full h-full border-0" 
                       loading="lazy" 
                     />
@@ -313,7 +381,7 @@ export default function Home() {
 
         {/* FAQ Section */}
         <FadeInBottom>
-          <section id="faq" className="bg-gray-50 sm:py-20 py-12">
+          <section id="faq" className="bg-gray-100 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">
@@ -425,7 +493,7 @@ export default function Home() {
         <div className="container px-6 mx-auto space-y-6 divide-y divide-gray-300 md:space-y-12 divide-opacity-50">
           <div className="grid grid-cols-12">
             <div className="pb-6 col-span-full md:pb-0 md:col-span-6">
-              <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 md:justify-start">
+              <div rel="noopener noreferrer" className="flex justify-center space-x-3 md:justify-start">
                 <div className="flex items-center justify-center ">
                   <Link href="/" className="flex">
                     <Image
@@ -441,7 +509,7 @@ export default function Home() {
                 <button type="button" className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base lg:text-lg rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
                   <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link>
                 </button>
-              </a>
+              </div>
             </div>
             <div className="col-span-6 text-center md:text-left md:col-span-3">
               <p className="pb-1 text-base xs:text-lg font-semibold">Category</p>
