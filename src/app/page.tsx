@@ -139,7 +139,7 @@ export default function Home() {
                 大人も子供も誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
                 心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？
               </div>
-              <div className="relative z-10 font-bold text-xs xs:text-sm sm:text-lg lg:text-xl xl:text-2xl text-yellow-400">2024年9月1日OPEN予定</div>
+              <div className="relative z-10 font-bold text-xs xs:text-sm sm:text-lg lg:text-xl xl:text-2xl text-yellow-400">2024年9月1日OPEN</div>
             
           </FadeInBottom>
         </section>
@@ -259,8 +259,11 @@ export default function Home() {
 
                   <FadeInBottom>
                     <p className="px-0 lg:px-5 py-0 lg:py-5 text-xs xs:text-sm lg:text-base text-gray-900">
-                      ※9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
-                      <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-300'>Instagram</span>のDMにご連絡ください。</a></p>
+                      ※9名様以上でのご利用や当日のご予約、貸切利用のご相談は、予約サイトではなく
+                      <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank"><span className='hover:text-yellow-400 underline'>公式Ｘ</span></a>や
+                      <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-400 underline'>Instagram</span></a>のDM、または
+                      <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank"><span className='hover:text-yellow-400 underline'>メール</span></a>でご連絡ください。
+                    </p>
                   </FadeInBottom>
 
                 </div>
@@ -290,12 +293,12 @@ export default function Home() {
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
                 <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">多種多様なボードゲームをご用意しています</p>
 
-                <div className="mt-4">
+                <div className="mt-4 sm:px-6 lg:px-10">
                   <iframe
                     className="h-[70vh] w-full min-w-full bg-transparent p-2.5 border border-gray-300 mx-auto overflow-auto box-border"
                     src="https://bodoge.hoobby.net/spaces/tretar/embedded/games?q[order_type]=players_by_four_favorite_desc&image_size=small&font_size=small&icon_recommend=show&icon_new=show&name_en=show&myboardgame=show&staff_text=show&user_id=135189"
                   >
-                    <a href="https://bodoge.hoobby.net/spaces/tretar/games" target="_blank">ボドゲーマで見る</a>
+                    <Link href="https://bodoge.hoobby.net/spaces/tretar/games" target="_blank">ボドゲーマで見る</Link>
                   </iframe>
 
                 </div>
@@ -337,7 +340,7 @@ export default function Home() {
               <div className="flex flex-col text-center w-full mb-12">
                 <h1 className="text-2xl xs:text-3xl md:text-5xl font-semibold xs:font-bold mb-2 text-gray-900">Access</h1>
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
-                <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">駅徒歩3分の好立地に2024年9月1日OPEN予定です</p>
+                <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">2024年9月1日OPENの1号店は上野駅近くの好立地です</p>
               </div>
 
               <div className="max-w-[85rem] px-4 py-0 lg:py-6 mx-auto">

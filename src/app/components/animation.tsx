@@ -58,9 +58,9 @@ export const TiltInBottom: React.FC<Props> = ({ children }) => {
  */
 export const FadeInBottom: React.FC<Props> = ({ children }) => {
     const { ref, inView } = useInView({
-        // ref要素が現れてから50px過ぎたら
-        rootMargin: "-50px",
-        delay: 200,
+        // ref要素が現れてから100px過ぎたら
+        rootMargin: "-100px",
+        delay: 150,
         // 最初の一度だけ実行
         triggerOnce: true,
     });
