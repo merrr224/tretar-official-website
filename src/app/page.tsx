@@ -417,10 +417,13 @@ export default function Home() {
                       </p>
                     </details>
                     <details className="w-full border rounded-lg bg-white">
-                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">その他注意事項</summary>
+                      <summary className="px-4 py-6 focus:outline-none focus-visible:ri">大人数での利用や当日予約は可能ですか？</summary>
                       <p className="px-4 py-6 pt-0 ml-3 -mt-2 font-semibold text-gray-900">
-                        9名様以上でのご利用や当日のご予約、貸し切り利用のご相談は、予約サイトからではなく
-                        <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-300'>Instagram</span>のDMにご連絡ください。</a></p>
+                        9名様以上でのご利用や当日のご予約、貸切利用のご相談は、予約サイトではなく
+                        <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank"><span className='hover:text-yellow-400 underline'>公式Ｘ</span></a>や
+                        <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-400 underline'>Instagram</span></a>のDM、または
+                        <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank"><span className='hover:text-yellow-400 underline'>メール</span></a>でご連絡ください。
+                      </p>
                     </details>
                   </div>
                 </div>
