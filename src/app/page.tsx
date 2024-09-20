@@ -240,6 +240,7 @@ export default function Home() {
                       <span><FontAwesomeIcon icon={faAngleRight} className="h-4 mx-3 my-2" /></span>
                       <span className="text-xl sm:text-2xl font-bold text-red-400">¥2,000</span>
                     </div>
+                    
                   </div>
                   </FadeInBottom>
 
@@ -259,6 +260,7 @@ export default function Home() {
 
                   <FadeInBottom>
                     <p className="px-0 lg:px-5 py-0 lg:py-5 text-xs xs:text-sm lg:text-base text-gray-900">
+                      ※最終入店時刻は20:00です。<br /><br />
                       ※9名様以上でのご利用や当日のご予約、貸切利用のご相談は、予約サイトではなく
                       <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank"><span className='hover:text-yellow-400 underline'>公式Ｘ</span></a>や
                       <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-400 underline'>Instagram</span></a>のDM、または
@@ -298,9 +300,10 @@ export default function Home() {
                     className="h-[70vh] w-full min-w-full bg-transparent p-2.5 border border-gray-300 mx-auto overflow-auto box-border"
                     src="https://bodoge.hoobby.net/spaces/tretar/embedded/games?q[order_type]=players_by_four_favorite_desc&image_size=small&font_size=small&icon_recommend=show&icon_new=show&name_en=show&myboardgame=show&staff_text=show&user_id=135189"
                   >
-                    <Link href="https://bodoge.hoobby.net/spaces/tretar/games" target="_blank">ボドゲーマで見る</Link>
                   </iframe>
-
+                  <button className='mt-2 text-xs lg:text-sm bg-gray-500 hover:bg-gray-400 text-white rounded px-4 py-1 shadow'>
+                    <Link href="https://bodoge.hoobby.net/spaces/tretar/games" target="_blank">ボドゲーマで見る</Link>
+                  </button>
                 </div>
                 
               </div>
