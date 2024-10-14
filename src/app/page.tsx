@@ -4,7 +4,7 @@ import React from 'react';
 import { FC } from 'react';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faEnvelope, faAngleRight, faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faEnvelope, faAngleRight, faCircleChevronRight, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import { FadeInBottom, KenBurnsBottom, TiltInBottom } from './components/animation';
@@ -127,7 +127,7 @@ export default function Home() {
         {/* grid text-center place-items-center  */}
         <section className="flex flex-col justify-center text-center gap-[0.4rem] xs:gap-3 sm:gap-6 md:gap-10 lg:gap-14 xl:gap-20 pt-14 xs:pt-[4.8rem] sm:pt-28 md:pt-36 lg:pt-44 xl:pt-56 aspect-[16/9] bg-cover bg-[url('/bg-img/top-bg.jpg')]">
         {/* Overlay */}
-        <div className="absolute inset-0 aspect-[16/9] mt-16 sm:mt-20 bg-black opacity-35"></div>
+        <div className="blur-sm absolute inset-0 aspect-[16/9] mt-2 pt-14 xs:pt-[4.8rem] sm:pt-28 md:pt-36 lg:pt-44 xl:pt-56 bg-black opacity-35"></div>
           <FadeInBottom>
               {/* Content */}
               <div className="relative z-10 text-white text-[1.95rem] xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold md:font-extrabold lg:black">
@@ -139,15 +139,67 @@ export default function Home() {
                 大人も子供も誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
                 心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？
               </div>
-              <div className="relative z-10 font-bold text-xs xs:text-sm sm:text-lg lg:text-xl xl:text-2xl text-yellow-400">2024年9月1日OPEN</div>
-            
           </FadeInBottom>
         </section>
         {/* End Hero Section */}
 
 
+        {/* News Section */}
+        <div className="relative flex flex-col w-[80%] lg:w-[65%] xl:w-[55%] mx-auto p-4 bg-white shadow-lg rounded-lg -mb-4 xs:-mb-6 sm:-mb-10 -mt-10 xs:-mt-16 sm:-mt-24 md:-mt-28 lg:-mt-32 z-10">
+
+          <div className="flex items-start">
+            <h2 className="text-lg mb-2 xs:text-xl md:text-3xl font-semibold xs:font-bold text-gray-900">News</h2>
+          </div>
+
+          <div className='flex flex-col'>
+            <div className="flex justify-start mb-1">
+              <div className='relative mr-6 w-40 h-20 rounded-lg border'>           
+                <Image src="/news/news01.png" alt="OPENしました" className="h-6 xs:h-7 sm:h-10" layout="fill" />
+              </div>
+              <div className="flex flex-col justify-center items-start">
+                <h3 className="text-gray-900 text-sm sm:text-base lg:text-lg font-medium">新規OPEN記念！全プラン割引セール開催！</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 mt-1">
+                  <div className='flex'>
+                    <span className='bg-gray-200 rounded-sm px-3 mr-4'>イベント</span>
+                    <span><FontAwesomeIcon icon={faCalendarDays} className="h-4 lg:h-5 mr-1" /></span>
+                    2024/09/01
+                  </div>
+                </p>
+              </div>
+            </div>
+            <hr />
+            <div className="flex justify-start mt-1">
+              <div className='relative mr-6 w-40 h-20 rounded-lg border'>           
+                <Image src="/news/news01.png" alt="OPENしました" className="h-6 xs:h-7 sm:h-10" layout="fill" />
+              </div>
+              <div className="flex flex-col justify-center items-start">
+                <h3 className="text-gray-900 text-sm sm:text-base lg:text-lg font-medium">TRETÅR上野店OPENしました！</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 mt-1">
+                  <div className='flex'>
+                    <span className='bg-gray-200 rounded-sm px-3 mr-4'>更新情報</span>
+                    <span><FontAwesomeIcon icon={faCalendarDays} className="h-4 lg:h-5 mr-1" /></span>
+                    2024/09/01
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex justify-end">
+            <Link href="/news" className="">
+              <button className="mt-6 bg-gray-900 text-white text-xs xs:text-sm md:text-base -mb-8 md:mr-4 px-4 md:px-8 py-2 rounded-md flex items-center">
+                もっとみる
+                <span><FontAwesomeIcon icon={faAngleRight} className="h-5 md:h-6 ml-2" /></span>
+              </button>
+            </Link>
+          </div>
+
+        </div>
+        {/* End News Section */}
+
+
         {/* Concept Section */}
-        <section id="concept" className="bg-gray-50 py-10 xs:py-12 sm:py-20">
+        <section id="concept" className="bg-gray-50 mt-4 py-10 xs:py-12 sm:py-20">
           {/* Container */}
           <div className="container mx-auto px-auto">
             <div className="flex flex-col text-center w-full mb-6">

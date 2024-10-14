@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
-import { Inter } from 'next/font/google'
+import { Noto_Sans_JP } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const notoSansJP = Noto_Sans_JP({ 
+  weight: "400",
+  subsets: ['latin'] 
+})
 
 export const metadata: Metadata = {
   title: 'TRETÅR（トレートール TRETAR） | 上野 ボードゲームスペース',
@@ -26,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={notoSansJP.className}>{children}</body>
       <GoogleAnalytics gaId="G-3V6JSZGNVS" />
     </html>
   )
