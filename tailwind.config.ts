@@ -36,7 +36,6 @@ const config: Config = {
       slate: colors.slate,
       zinc: colors.zinc,
       gray: colors.gray,
-      neutral: colors.blueGray,
       stone: colors.stone,
     },
     screens: {

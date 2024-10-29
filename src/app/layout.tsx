@@ -36,19 +36,19 @@ export const metadata: Metadata = {
   },
 }
 
-export const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "TRETÅR",
-  "alternateName": "TRETAR",
-  "url": "https://tre-tar.com/"
-};
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "TRETÅR",
+    "alternateName": "TRETAR",
+    "url": "https://tre-tar.com/"
+  };
+  
   return (
     <html lang="ja">
       <Script
