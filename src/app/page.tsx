@@ -187,14 +187,6 @@ export default function Home() {
                 <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">サービスと料金</p>
               </div>
 
-              <FadeInBottom>
-                <p className="px-5 pb-8 ml-4 font-semibold text-red-400 text-xs xs:text-sm sm:text-base md:text-lg">
-                  ★OPEN記念キャンペーン中★<br />
-                  全プラン割引価格にてご利用いただけます！<br />
-                  （キャンペーン期間：2024年10月30日まで）
-                </p>
-              </FadeInBottom>
-
               <div className="container px-12 mx-auto">
                 <div className="flex flex-wrap items-stretch mb-8">
 
@@ -205,9 +197,7 @@ export default function Home() {
                       <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">13:00〜18:00 遊び放題</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
-                      <span className="text-xl sm:text-2xl font-semibold line-through">¥2,000</span>
-                      <span><FontAwesomeIcon icon={faAngleRight} className="h-4 mx-3 my-[0.4rem]" /></span>
-                      <span className="text-xl sm:text-2xl font-bold text-red-400">¥1,500</span>
+                      <span className="text-xl sm:text-3xl font-semibold">¥2,000</span>
                     </div>
                   </div>
                   </FadeInBottom>
@@ -219,9 +209,7 @@ export default function Home() {
                       <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">18:00〜21:00 遊び放題</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
-                      <span className="text-xl sm:text-2xl font-semibold line-through">¥1,500</span>
-                      <span><FontAwesomeIcon icon={faAngleRight} className="h-4 mx-3 my-2" /></span>
-                      <span className="text-xl sm:text-2xl font-bold text-red-400">¥1,000</span>
+                      <span className="text-xl sm:text-3xl font-semibold">¥1,500</span>
                     </div>
                   </div>
                   </FadeInBottom>
@@ -236,9 +224,7 @@ export default function Home() {
                       <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">13:00〜21:00 遊び放題</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
-                      <span className="text-xl sm:text-2xl font-semibold line-through">¥2,500</span>
-                      <span><FontAwesomeIcon icon={faAngleRight} className="h-4 mx-3 my-2" /></span>
-                      <span className="text-xl sm:text-2xl font-bold text-red-400">¥2,000</span>
+                      <span className="text-xl sm:text-3xl font-semibold">¥2,500</span>
                     </div>
                     
                   </div>
@@ -251,9 +237,7 @@ export default function Home() {
                       <div className="pb-2 text-sm sm:text-base xl:text-lg tracking-tight">いつでも2時間</div>
                     </div>
                     <div className="inline-flex w-full justify-center bg-white text-black py-5 xs:py-6 border rounded-b-sm border-gray-600">
-                      <span className="text-xl sm:text-2xl font-semibold line-through">¥1,500</span>
-                      <span><FontAwesomeIcon icon={faAngleRight} className="h-4 mx-3 my-2" /></span>
-                      <span className="text-xl sm:text-2xl font-bold text-red-400">¥1,000</span>
+                      <span className="text-xl sm:text-3xl font-semibold">¥1,500</span>
                     </div>
                   </div>
                   </FadeInBottom>
