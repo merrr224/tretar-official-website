@@ -90,7 +90,7 @@ export default function Home() {
               <Image src="/logo/TRETAR-logo-navbar.png" alt="TRETÅR logo" className="h-6 xs:h-7 sm:h-10 w-auto" width={960} height={540} priority />
             </Link>
           </div>
-          <ul className="items-stretch hidden space-x-3 lg:flex">
+          <ul className="items-stretch hidden space-x-1 lg:flex">
             <li className="flex">
               <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">News</a>
             </li>
@@ -99,6 +99,9 @@ export default function Home() {
             </li>
             <li className="flex">
               <a rel="noopener noreferrer" href="#service" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Service</a>
+            </li>
+            <li className="flex">
+              <a rel="noopener noreferrer" href="#lineup" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Lineup</a>
             </li>
             <li className="flex">
               <a rel="noopener noreferrer" href="#gallary" className="flex items-center px-4 -mb-1 border-b-2 border-transparent hover:text-yellow-400 hover:border-yellow-400">Gallary</a>
@@ -114,7 +117,7 @@ export default function Home() {
             </li>
           </ul>
           <div className="flex-shrink-0 lg:flex">
-            <button className="self-center px-[1.3rem] xs:px-6 sm:px-8 xl:px-10 py-[0.60rem] sm:py-3 text-xs xs:text-sm md:text-base xl:text-lg font-medium rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
+            <button className="self-center px-[1.3rem] xs:px-6 xl:px-10 py-[0.60rem] sm:py-3 text-xs xs:text-sm lg:text-base xl:text-lg font-medium rounded-full bg-indigo-800 text-gray-200 hover:bg-indigo-600">
               <Link href="https://select-type.com/rsv/?id=FTVX8LZK96s&c_id=314993" target="_blank">予約サイトへ</Link></button>
           </div>
         </div>
@@ -271,7 +274,7 @@ export default function Home() {
 
         {/* Lineup Section */}
         <FadeInBottom>
-          <section id="access" className=" bg-gray-50 sm:py-20 py-12">
+          <section id="lineup" className=" bg-gray-50 sm:py-20 py-12">
             {/* Container */}
             <div className="container mx-auto px-6">
               <div className="flex flex-col text-center w-full mb-12">

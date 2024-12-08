@@ -7,14 +7,14 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'TRETÅR（トレートール TRETAR） | 上野 ボードゲームスペース',
+  title: 'TRETÅR | 上野駅から一番近くて安いボードゲームカフェ | トレートール TRETAR',
   description: 'TRETÅR（トレートール TRETAR） | 上野駅入谷口徒歩3分のボードゲームスペースです。こだわりの空間でゆったりとしたボードゲーム時間をお楽しみください。',
   keywords: ['Boardgame', 'ボードゲーム', 'ボドゲ', 'ボドゲカフェ', '上野'],
   metadataBase: new URL('https://tre-tar.com'),
   openGraph: {
-    title: 'TRETÅR（トレートール TRETAR） | 上野 ボードゲームスペース',
+    title: 'TRETÅR | 上野駅から一番近くて安いボードゲームカフェ | トレートール TRETAR',
     description: 'TRETÅR（トレートール TRETAR） | 上野駅入谷口徒歩3分のボードゲームスペースです。こだわりの空間でゆったりとしたボードゲーム時間をお楽しみください。',
-    siteName: 'TRETÅR',
+    siteName: 'TRETÅR（トレートール）',
     images: '/gallery/IMG_5012.jpeg',
     locale: 'ja_JP',
   },
