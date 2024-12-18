@@ -248,10 +248,12 @@ export default function Home() {
                   <FadeInBottom>
                     <p className="px-0 lg:px-5 py-0 lg:py-5 text-xs xs:text-sm lg:text-base text-gray-900">
                       ※最終入店時刻は20:00です。<br /><br />
-                      ※9名様以上でのご利用や当日のご予約、貸切利用のご相談は、予約サイトではなく
+                      ※9名様以上でのご利用や当日のご予約は、予約サイトではなく
                       <a rel="noopener noreferrer" href="https://x.com/TRETARboardgame" target="_blank"><span className='hover:text-yellow-400 underline'>公式Ｘ</span></a>や
                       <a rel="noopener noreferrer" href="https://www.instagram.com/tretar_boardgame/" target="_blank"><span className='hover:text-yellow-400 underline'>Instagram</span></a>のDM、または
-                      <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank"><span className='hover:text-yellow-400 underline'>メール</span></a>でご連絡ください。
+                      <a rel="noopener noreferrer" href="mailto:tretar.info@gmail.com?subject=お問い合わせ" target="_blank"><span className='hover:text-yellow-400 underline'>メール</span></a>でご連絡ください。<br /><br />
+                      ※貸切利用のご相談も承っております。（¥3,000/人、または最大料金¥40,000）お気軽に上記メールやDMにてお問い合わせください。
+                    
                     </p>
                   </FadeInBottom>
 
@@ -434,7 +436,7 @@ export default function Home() {
               <div className="flex flex-col w-full">
                 <h1 className="text-2xl xs:text-3xl md:text-5xl font-semibold xs:font-bold mb-2 text-gray-900">Contact</h1>
                 <span className="w-24 xs:w-28 md:w-36 lg:w-40 h-[2px] mb-4 mt-1 xs:mt-4 md:mt-5 rounded-full bg-yellow-300 mx-auto"></span>
-                <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">お問い合わせやSNSアカウントはこちら</p>
+                <p className="mx-auto leading-relaxed text-xs xs:text-sm md:text-base text-gray-600">出演・取材等のお仕事に関するお問い合わせは下記よりお願いいたします</p>
 
                 <div className="container flex flex-col justify-center mx-auto mt-8 text-gray-900">
 
