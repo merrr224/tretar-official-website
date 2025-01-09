@@ -140,7 +140,7 @@ export default function Home() {
               {/* mx-11 xs:mx-14  text-[0.6rem]*/}
               <div className="relative z-10 mx-4 xs:mt-1 text-white text-[0.65rem] xs:text-xs sm:txt-sm md:text-base lg:text-lg xl:text-xl font-medium sm:font-semibold">
                 大人も子供も誰でも気軽に遊べるボードゲームを多数取り揃えています<br />
-                心地よくてついつい居てしまうリラックスボードゲームスペースにあなたも魅了されませんか？
+                心地よくてついつい居てしまうボードゲームカフェにあなたも魅了されませんか？
               </div>
               <div className="relative z-10 font-bold text-xs xs:text-sm sm:text-lg lg:text-xl xl:text-2xl text-yellow-400">2024年9月1日OPEN</div>
             
